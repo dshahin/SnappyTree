@@ -51,6 +51,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		
 	};
 	Tree.prototype.properties={
+		fooBar:0.5,
 		clumpMax:0.8,
 		clumpMin:0.5,
 		lengthFalloffFactor:0.85,

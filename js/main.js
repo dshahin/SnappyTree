@@ -14,14 +14,20 @@ if(window.location.hash!=""){
 }
 
 var presets=[
-	{"seed":262,"segments":6,"levels":5,"vMultiplier":2.36,"twigScale":0.39,"initalBranchLength":0.49,"lengthFalloffFactor":0.85,"lengthFalloffPower":0.99,"clumpMax":0.454,"clumpMin":0.404,"branchFactor":2.45,"dropAmount":-0.1,"growAmount":0.235,"sweepAmount":0.01,"maxRadius":0.139,"climbRate":0.371,"trunkKink":0.093,"treeSteps":5,"taperRate":0.947,"radiusFalloffRate":0.73,"twistRate":3.02,"trunkLength":2.4,"trunkMaterial":"TrunkType1","twigMaterial":"BranchType6"},
-	{"seed":861,"segments":10,"levels":5,"vMultiplier":0.66,"twigScale":0.47,"initalBranchLength":0.5,"lengthFalloffFactor":0.85,"lengthFalloffPower":0.99,"clumpMax":0.449,"clumpMin":0.404,"branchFactor":2.75,"dropAmount":0.07,"growAmount":-0.005,"sweepAmount":0.01,"maxRadius":0.269,"climbRate":0.626,"trunkKink":0.108,"treeSteps":4,"taperRate":0.876,"radiusFalloffRate":0.66,"twistRate":2.7,"trunkLength":1.55,"trunkMaterial":"TrunkType2","twigMaterial":"BranchType5"},
-	{"seed":152,"segments":6,"levels":5,"vMultiplier":1.16,"twigScale":0.44,"initalBranchLength":0.49,"lengthFalloffFactor":0.85,"lengthFalloffPower":0.99,"clumpMax":0.454,"clumpMin":0.246,"branchFactor":3.2,"dropAmount":0.09,"growAmount":0.235,"sweepAmount":0.01,"maxRadius":0.111,"climbRate":0.41,"trunkKink":0.0,"treeSteps":5,"taperRate":0.835,"radiusFalloffRate":0.73,"twistRate":2.06,"trunkLength":2.45,"trunkMaterial":"TrunkType3","twigMaterial":"BranchType2"},
-	{"seed":499,"segments":8,"levels":5,"vMultiplier":1,"twigScale":0.28,"initalBranchLength":0.5,"lengthFalloffFactor":0.98,"lengthFalloffPower":1.08,"clumpMax":0.414,"clumpMin":0.282,"branchFactor":2.2,"dropAmount":0.24,"growAmount":0.044,"sweepAmount":0,"maxRadius":0.096,"climbRate":0.39,"trunkKink":0,"treeSteps":5,"taperRate":0.958,"radiusFalloffRate":0.71,"twistRate":2.97,"trunkLength":1.95,"trunkMaterial":"TrunkType3","twigMaterial":"BranchType3"},
-	{"seed":267,"segments":8,"levels":4,"vMultiplier":0.96,"twigScale":0.71,"initalBranchLength":0.12,"lengthFalloffFactor":1,"lengthFalloffPower":0.7,"clumpMax":0.556,"clumpMin":0.404,"branchFactor":3.5,"dropAmount":0.18,"growAmount":-0.108,"sweepAmount":0.01,"maxRadius":0.139,"climbRate":0.419,"trunkKink":0.093,"treeSteps":5,"taperRate":0.947,"radiusFalloffRate":0.73,"twistRate":3.53,"trunkLength":1.75,"trunkMaterial":"TrunkType3","twigMaterial":"BranchType4"},
-	{"seed":519,"segments":6,"levels":5,"vMultiplier":1.01,"twigScale":0.52,"initalBranchLength":0.65,"lengthFalloffFactor":0.73,"lengthFalloffPower":0.76,"clumpMax":0.53,"clumpMin":0.419,"branchFactor":3.4,"dropAmount":-0.16,"growAmount":0.128,"sweepAmount":0.01,"maxRadius":0.168,"climbRate":0.472,"trunkKink":0.06,"treeSteps":5,"taperRate":0.835,"radiusFalloffRate":0.73,"twistRate":1.29,"trunkLength":2.2,"trunkMaterial":"TrunkType2","twigMaterial":"BranchType1"},
-	{"seed":152,"segments":8,"levels":5,"vMultiplier":1.16,"twigScale":0.39,"initalBranchLength":0.49,"lengthFalloffFactor":0.85,"lengthFalloffPower":0.99,"clumpMax":0.454,"clumpMin":0.454,"branchFactor":3.2,"dropAmount":0.09,"growAmount":0.235,"sweepAmount":0.051,"maxRadius":0.105,"climbRate":0.322,"trunkKink":0,"treeSteps":5,"taperRate":0.964,"radiusFalloffRate":0.73,"twistRate":1.5,"trunkLength":2.25,"trunkMaterial":"TrunkType1","twigMaterial":"BranchType2"},
-	{"seed":267,"segments":8,"levels":4,"vMultiplier":0.96,"twigScale":0.7,"initalBranchLength":0.26,"lengthFalloffFactor":0.94,"lengthFalloffPower":0.7,"clumpMax":0.556,"clumpMin":0.404,"branchFactor":3.5,"dropAmount":-0.15,"growAmount":0.28,"sweepAmount":0.01,"maxRadius":0.139,"climbRate":0.419,"trunkKink":0.093,"treeSteps":5,"taperRate":0.947,"radiusFalloffRate":0.73,"twistRate":3.32,"trunkLength":2.2,"trunkMaterial":"TrunkType1","twigMaterial":"BranchType3"}
+	{"fooBar":0.5,"seed":262,"segments":6,"levels":5,"vMultiplier":2.36,"twigScale":0.39,"initalBranchLength":0.49,"lengthFalloffFactor":0.85,"lengthFalloffPower":0.99,"clumpMax":0.454,"clumpMin":0.404,"branchFactor":2.45,"dropAmount":-0.1,"growAmount":0.235,"sweepAmount":0.01,"maxRadius":0.139,"climbRate":0.371,"trunkKink":0.093,"treeSteps":5,"taperRate":0.947,"radiusFalloffRate":0.73,"twistRate":3.02,"trunkLength":2.4,"trunkMaterial":"TrunkType1","twigMaterial":"BranchType6"},
+	{"fooBar":0.5,"seed":861,"segments":10,"levels":5,"vMultiplier":0.66,"twigScale":0.47,"initalBranchLength":0.5,"lengthFalloffFactor":0.85,"lengthFalloffPower":0.99,"clumpMax":0.449,"clumpMin":0.404,"branchFactor":2.75,"dropAmount":0.07,"growAmount":-0.005,"sweepAmount":0.01,"maxRadius":0.269,"climbRate":0.626,"trunkKink":0.108,"treeSteps":4,"taperRate":0.876,"radiusFalloffRate":0.66,"twistRate":2.7,"trunkLength":1.55,"trunkMaterial":"TrunkType2","twigMaterial":"BranchType5"},
+	{"fooBar":0.5,"seed":152,"segments":6,"levels":5,"vMultiplier":1.16,"twigScale":0.44,"initalBranchLength":0.49,"lengthFalloffFactor":0.85,"lengthFalloffPower":0.99,"clumpMax":0.454,"clumpMin":0.246,"branchFactor":3.2,"dropAmount":0.09,"growAmount":0.235,"sweepAmount":0.01,"maxRadius":0.111,"climbRate":0.41,"trunkKink":0.0,"treeSteps":5,"taperRate":0.835,"radiusFalloffRate":0.73,"twistRate":2.06,"trunkLength":2.45,"trunkMaterial":"TrunkType3","twigMaterial":"BranchType2"},
+	{"fooBar":0.5,"seed":499,"segments":8,"levels":5,"vMultiplier":1,"twigScale":0.28,"initalBranchLength":0.5,"lengthFalloffFactor":0.98,"lengthFalloffPower":1.08,"clumpMax":0.414,"clumpMin":0.282,"branchFactor":2.2,"dropAmount":0.24,"growAmount":0.044,"sweepAmount":0,"maxRadius":0.096,"climbRate":0.39,"trunkKink":0,"treeSteps":5,"taperRate":0.958,"radiusFalloffRate":0.71,"twistRate":2.97,"trunkLength":1.95,"trunkMaterial":"TrunkType3","twigMaterial":"BranchType3"},
+	{"fooBar":0.5,"seed":267,"segments":8,"levels":4,"vMultiplier":0.96,"twigScale":0.71,"initalBranchLength":0.12,"lengthFalloffFactor":1,"lengthFalloffPower":0.7,"clumpMax":0.556,"clumpMin":0.404,"branchFactor":3.5,"dropAmount":0.18,"growAmount":-0.108,"sweepAmount":0.01,"maxRadius":0.139,"climbRate":0.419,"trunkKink":0.093,"treeSteps":5,"taperRate":0.947,"radiusFalloffRate":0.73,"twistRate":3.53,"trunkLength":1.75,"trunkMaterial":"TrunkType3","twigMaterial":"BranchType4"},
+	{"fooBar":0.5,"seed":519,"segments":6,"levels":5,"vMultiplier":1.01,"twigScale":0.52,"initalBranchLength":0.65,"lengthFalloffFactor":0.73,"lengthFalloffPower":0.76,"clumpMax":0.53,"clumpMin":0.419,"branchFactor":3.4,"dropAmount":-0.16,"growAmount":0.128,"sweepAmount":0.01,"maxRadius":0.168,"climbRate":0.472,"trunkKink":0.06,"treeSteps":5,"taperRate":0.835,"radiusFalloffRate":0.73,"twistRate":1.29,"trunkLength":2.2,"trunkMaterial":"TrunkType2","twigMaterial":"BranchType1"},
+	{"fooBar":0.5,"seed":152,"segments":8,"levels":5,"vMultiplier":1.16,"twigScale":0.39,"initalBranchLength":0.49,"lengthFalloffFactor":0.85,"lengthFalloffPower":0.99,"clumpMax":0.454,"clumpMin":0.454,"branchFactor":3.2,"dropAmount":0.09,"growAmount":0.235,"sweepAmount":0.051,"maxRadius":0.105,"climbRate":0.322,"trunkKink":0,"treeSteps":5,"taperRate":0.964,"radiusFalloffRate":0.73,"twistRate":1.5,"trunkLength":2.25,"trunkMaterial":"TrunkType1","twigMaterial":"BranchType2"},
+	{"fooBar":0.5,"seed":267,"segments":8,"levels":4,"vMultiplier":0.96,"twigScale":0.7,"initalBranchLength":0.26,"lengthFalloffFactor":0.94,"lengthFalloffPower":0.7,"clumpMax":0.556,"clumpMin":0.404,"branchFactor":3.5,"dropAmount":-0.15,"growAmount":0.28,"sweepAmount":0.01,"maxRadius":0.139,"climbRate":0.419,"trunkKink":0.093,"treeSteps":5,"taperRate":0.947,"radiusFalloffRate":0.73,"twistRate":3.32,"trunkLength":2.2,"trunkMaterial":"TrunkType1","twigMaterial":"BranchType3"},
+	{"fooBar":0.5,"seed":200,"segments":4,"levels":4,"vMultiplier":0.96,"twigScale":0.7,"initalBranchLength":0.52,"lengthFalloffFactor":0.94,"lengthFalloffPower":0.7,"clumpMax":0.556,"clumpMin":0.404,"branchFactor":3.5,"dropAmount":-0.15,"growAmount":0.09,"sweepAmount":0.01,"maxRadius":0.139,"climbRate":0.419,"trunkKink":0.093,"treeSteps":5,"taperRate":0.947,"radiusFalloffRate":0.73,"twistRate":3.32,"trunkLength":2.2,"trunkMaterial":"TrunkType1","twigMaterial":"BranchType6"}
+
+],
+	stocks = [
+	{symbol:'GOOG',price:1000},
+	{symbol:'AAPL',price:500}
 ]
 
 $(function(){
@@ -31,7 +37,8 @@ var fields=[
 	{name:"segments",title:"Branch Segments",range:[6,20],value:6,step:2,type:"slider"},
 	{name:"levels",title:"Branching Level Depth",range:[0,7],value:4,step:1,type:"slider"},
 	{name:"vMultiplier",title:"Texture V mulitplier",range:[0.01,10],value:1,step:0.05,type:"slider"},
-	{name:"twigScale",title:"Twig Scale",range:[0,1],value:0.5,step:0.01,type:"slider"}
+	{name:"twigScale",title:"Twig Scale",range:[0,1],value:0.5,step:0.01,type:"slider"},
+	{name:"fooBar",title:"Foo Bar",range:[0,1],value:0.5,step:0.01,type:"slider"}
 ]},
 {group:"Branching",fields:[
 	{name:"initalBranchLength",title:"Initial Branch Length",range:[0.1,1],value:0.43,step:0.01,type:"slider"},
@@ -58,6 +65,14 @@ var fields=[
 {group:"Textures",fields:[
 	{name:"trunkMaterial",title:"Trunk Material",value:"TrunkType2",type:"selectImage",options:[["images/trunk1.jpg","TrunkType1"],["images/trunk2.jpg","TrunkType2"],["images/trunk3.jpg","TrunkType3"],["images/trunk4.jpg","TrunkType4"]]},
 	{name:"twigMaterial",title:"Twig Material",value:"BranchType5",type:"selectImage",options:[["images/branch1.jpg","BranchType1"],["images/branch2.jpg","BranchType2"],["images/branch3.jpg","BranchType3"],["images/branch4.jpg","BranchType4"],["images/branch5.jpg","BranchType5"],["images/branch6.jpg","BranchType6"]]}
+]},
+//Creates a tab and overrides tree fields with new names 
+{group:"Stock Mappings",fields:[
+	{name:"climbRate",title:"Growth rate mapped to Climb Rate",range:[0.05,3],value:0.5,step:0.001,type:"slider"},
+	{name:"maxRadius",title:"P/E Ratio mapped to Maximum Trunk Radius",range:[0.05,1],value:0.144,step:0.001,type:"slider"},
+	{name:"dropAmount",title:"Momentum mapped to Droop",range:[-1,1],value:0.00,step:0.01,type:"slider"},
+	{name:"twigMaterial",title:"Dividend mapped to Twig Material",value:"BranchType5",type:"selectImage",options:[["images/branch1.jpg","BranchType1"],["images/branch2.jpg","BranchType2"],["images/branch3.jpg","BranchType3"],["images/branch4.jpg","BranchType4"],["images/branch5.jpg","BranchType5"],["images/branch6.jpg","BranchType6"]]}
+
 ]}
 ];
 

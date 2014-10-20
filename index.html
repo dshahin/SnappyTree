@@ -1,5 +1,6 @@
+
 <!doctype html>
-<html manifest="snappytree.appcache">
+<html >
 <head>
 <title>Tree</title>
 <link type="text/css" href="css/base.css" rel="stylesheet" />
@@ -14,7 +15,7 @@
 
 <div id="header">
 <div id="logo"><img src="images/tree.png" alt="TOM" /></div>
-<h1>SnappyTree</h1>
+<h1>Stock Tree</h1>
 
 <div id="about" title="SnappyTree">
 <p>SnappyTree by Paul Brunt, contact:<br />
@@ -98,7 +99,7 @@ Currently only the export of mesh is supported. You will need to re-apply the te
 </div>
 <div id="sliders">
 	<ul id="presets">
-	<li><a href="#tab0">Presets</a></li>
+	<li><a href="#tab0">presets</a></li>
 	<li><a href="#tab1">JSON</a></li>
 	</ul>
 	<div id="tab0">
@@ -112,6 +113,7 @@ Currently only the export of mesh is supported. You will need to re-apply the te
 		<li><a href="javascript:setPreset(5)"><img src="images/preset6.jpg" alt="Tree 6" /></a></li>
 		<li><a href="javascript:setPreset(6)"><img src="images/preset7.jpg" alt="Tree 7" /></a></li>
 		<li><a href="javascript:setPreset(7)"><img src="images/preset8.jpg" alt="Tree 8" /></a></li>
+		<li><a href="javascript:setPreset(8)"><img src="images/preset9.jpg" alt="Tree 9" height="90" width="80"/></a></li>
 		</ul>		
 	</div>
 	<div id="tab1">	
@@ -120,6 +122,7 @@ Currently only the export of mesh is supported. You will need to re-apply the te
 		<textarea id="json"></textarea>
 		
 	</div>
+	
 
 </div>
 
@@ -145,20 +148,7 @@ Currently only the export of mesh is supported. You will need to re-apply the te
 <script type="text/javascript" src="js/jquery-ui-1.8.7.custom.min.js"></script>
 <script type="text/javascript" src="js/export.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
-<script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-1964529-5']);
-  _gaq.push(['_setDomainName', 'snappytree.com']);
-  _gaq.push(['_setAllowLinker', true]);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
 </body>
 </html>
+

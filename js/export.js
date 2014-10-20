@@ -1,10 +1,10 @@
 var getStringFileURL=function(text){
 	try{
-		var fileBlob=new Blob(text);		
+		var fileBlob=new Blob([text]);		
 	}catch(e){
 		var blobBuilder=window.BlobBuilder || window.MozBlobBuilder || window.WebKitBlobBuilder;
 		var bb=new blobBuilder();		
-		bb.append(text);
+		bb.append([text]);
 		var fileBlob=bb.getBlob();
 	}
 	var URL=window.URL || window.webkitURL;
